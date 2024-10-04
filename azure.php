@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?PHP
+echo'<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -43,3 +44,4 @@
     </div>
 </body>
 </html>
+'?>
