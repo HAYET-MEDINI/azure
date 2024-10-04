@@ -1,5 +1,6 @@
 <?php
-echo'<!DOCTYPE html>
+// Le bloc PHP doit être ouvert et le HTML doit être en dehors des balises PHP
+echo '<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -39,9 +40,9 @@ echo'<!DOCTYPE html>
 <body>
     <div class="container">
         <h1>Bienvenue sur ma première page PHP avec du CSS intégré !</h1>
-        <p><?php echo "Aujourd'hui, nous sommes le " . date("d/m/Y") . "."; ?></p>
-        <p><?php echo "Heure actuelle : " . date("H:i:s"); ?></p>
+        <p>Aujourd'hui, nous sommes le ' . date("d/m/Y") . '.</p>
+        <p>Heure actuelle : ' . date("H:i:s") . '</p>
     </div>
 </body>
-</html>
-'?>
+</html>';
+?>
